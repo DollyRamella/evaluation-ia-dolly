@@ -2,14 +2,6 @@
 
 Version livrée le 15 octobre 2026. Adaptation du questionnaire de Pascal Brassier (Quartiers du numérique 2026). Les formulations et restitutions sont adaptées. Cette typologie n’a pas de validation psychométrique et ne mesure pas un niveau de compétence.
 
-## Utiliser immédiatement la version hébergée
-
-- Questionnaire public, sans connexion : https://evaluer-avec-ia.nimble-dace-2662.chatgpt.site/
-- Administration : https://evaluer-avec-ia.nimble-dace-2662.chatgpt.site/admin
-- Se connecter uniquement à l’administration avec le compte ChatGPT propriétaire du site. L’adresse autorisée est configurée côté serveur, jamais dans le navigateur.
-- Chaque participant répond à dix situations, vérifie ses choix et appuie sur **Envoyer mes réponses et voir mon résultat**. Un résultat n’est affiché comme enregistré qu’après confirmation du serveur.
-- Dans l’administration : filtrer, ouvrir **Voir les 10 réponses**, consulter les moyennes et les statistiques par question, exporter toutes les lignes filtrées, supprimer vers la corbeille ou restaurer.
-- Le champ **Session de formation** est facultatif. L’administration génère un lien prérempli. Il s’agit d’une étiquette de regroupement, pas d’un contrôle d’accès : elle reste modifiable par le participant.
 
 ## Architecture
 
