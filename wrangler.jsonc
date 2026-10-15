@@ -1,0 +1,12 @@
+{
+  "name": "evaluation-ia-api",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-15",
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "evaluation-ia",
+    "database_id": "REMPLACER_PAR_ID_D1",
+    "migrations_dir": "drizzle"
+  }],
+  "observability": {"enabled": false}
+}
