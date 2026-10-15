@@ -146,21 +146,12 @@ Les tests utilisent SQLite en mémoire avec les migrations réellement livrées 
 
 Voir `VERIFICATION.md` pour les vérifications réellement effectuées dans cette livraison et leurs limites. Avant votre première formation, testez le lien avec un téléphone, un ordinateur et une fenêtre privée.
 
-## Code de la version hébergée Sites
 
-`app/`, `db/`, `build/`, `scripts/` et la configuration Vinext contiennent le code de la version Sites. L’archive ne contient ni secrets, ni données de participation, ni identifiant du projet hébergé dans son manifeste. Pour publier depuis un autre environnement Sites, il faut associer le code à votre projet et configurer `ADMIN_EMAIL` côté serveur. Le simple dépôt sur GitHub ne déploie pas automatiquement cette partie serveur.
 
 ## Crédit
 
 Source : https://qdn-evaluation-ia-2026.pascal6367.chatgpt.site/
 Typologie proposée par Pascal Brassier, Quartiers du numérique 2026. Adaptation des formulations, de l’interface et de l’administration pour l’usage en formation. Aucun logo institutionnel ni validation scientifique n’est revendiqué.
 
-## Refonte graphique — Alef
 
-L’accueil, les questions, la relecture, les résultats et l’administration partagent une charte turquoise / blanc. Alef Regular et Bold sont hébergées localement dans `public/fonts/` et copiées dans `docs/fonts/`. Aucun appel à Google Fonts n’est effectué par l’interface. Les fichiers officiels et leur licence OFL sont inclus : https://github.com/google/fonts/tree/main/ofl/alef. Police de secours : Arial, puis sans-serif.
 
-Le récapitulatif permet de modifier une question puis de revenir directement à la relecture. L’impression développe temporairement tous les profils, intègre la note personnelle sans la transmettre au serveur, puis rétablit les panneaux initialement ouverts. Les animations respectent la préférence de réduction des mouvements. Les tests de contraste couvrent les principales paires de couleurs et les contours des champs/réponses ; ils ne constituent pas un audit complet d’accessibilité.
-
-## Charte turquoise
-
-Couleur principale : `#19A69F` (`#19A69FFF` en notation RGBA, opacité complète). Présentation éditoriale : fond blanc, repères numérotés, séparateurs et composants sobres. Les textes et boutons utilisent notamment `#193B3A` et `#006C68` pour le contraste. Alef demeure hébergée localement. Le questionnaire conserve son sujet et ses contenus.
